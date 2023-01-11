@@ -10,12 +10,23 @@
   <link rel="icon" href="img/favicon-32x32.ico">
   <title>Settings</title>
   <script>
+  
+  </script>
+  
+  
+  <script>
   if (localStorage.getItem("newTitle") == null) {
   document.title = ("Settings")
 }
-  var titleName = localStorage.getItem("newTitle");
-          document.title = (titleName)
-  </script>
+ else { var titleName = localStorage.getItem("newTitle");
+          document.title = (titleName);}
+  
+
+    
+ 
+ </script>
+  <script async src="../js/readpreset.js"></script>
+
 <script src="../js/nav.js"></script>
 <script src="../js/settings.js"></script>
 </head>
@@ -29,11 +40,15 @@
 
 
 <div class="left">
-<button class="glow-on-hover" align="left" onclick="titleChange()">Click Me To Change Title</button>
+  
+
+  <button class="glow-on-hover" align="left" onclick="titleChange()">Click Me To Change Title</button>
 </div>
 
-
-
+<button class="glow-on-hover" align="left" onclick="reset()">Reset Tabname</button>
+<div class="left">
+  <button class="glow-on-hover" align="left" onclick="preset()">Choose A Preset</button> 
+</div>
 
 
   <div class="content">

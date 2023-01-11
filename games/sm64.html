@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script async src="../js/readpreset.js"></script>
   <script src="../../js/fullscreen.js"></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Super Mario 64</title>
+  <script>
+    if (localStorage.getItem("newTitle") == null) {
+    document.title = ("Super Mario 64")
+  }
+   else { var titleName = localStorage.getItem("newTitle");
+            document.title = (titleName);}
+    </script> 
 </head>
 <body>
   <script> alert("controls are weird i reccomend changing them at th little controller button")</script>
