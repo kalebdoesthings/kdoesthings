@@ -1,5 +1,77 @@
 /* Style the navbar */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@400;500&display=swap');
+@-webkit-keyframes rainbowanim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes rainbowanim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes rainbowanim { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+img:hover{
+
+border:5px solid red;
+
+
+
+}
+
+
+
+
+
+
+
+h2:hover {
+
+  background: linear-gradient(45deg,#FF0000,#FF7F00,#FFFF00,#00FF00,#0000FF,#4B0082,#8B00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+
+  -webkit-animation: rainbowanim 7s ease infinite;
+  -moz-animation: rainbowanim 7s ease infinite;
+  animation: rainbowanim 7s ease infinite;
+
+
+
+
+}
+
+.rainbow {
+
+
+
+
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(45deg,#FF0000,#FF7F00,#FFFF00,#00FF00,#0000FF,#4B0082,#8B00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+
+  -webkit-animation: rainbowanim 7s ease infinite;
+  -moz-animation: rainbowanim 7s ease infinite;
+  animation: rainbowanim 7s ease infinite;
+}
+
+
+
+
+
+
+
+
 
 
 
