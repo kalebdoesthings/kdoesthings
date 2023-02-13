@@ -30,26 +30,17 @@ border:5px solid red;
 
 
 
-h2:hover {
-
-  background: linear-gradient(45deg,#FF0000,#FF7F00,#FFFF00,#00FF00,#0000FF,#4B0082,#8B00FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 400% 400%;
-
-  -webkit-animation: rainbowanim 7s ease infinite;
-  -moz-animation: rainbowanim 7s ease infinite;
-  animation: rainbowanim 7s ease infinite;
 
 
 
 
-}
+
+
 
 .rainbow {
 
 
-
+  font-family: 'Roboto Mono', monospace;
 
   display: block;
   text-align: center;
