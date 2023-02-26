@@ -49,7 +49,7 @@ function preset(){
  
  
     }   
-    if (choice == "1") {
+    if (choice == "4") {
       const blanktext = "ㅤ"
       var one = "1"
       var two = "2"

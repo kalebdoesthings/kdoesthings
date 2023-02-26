@@ -5,15 +5,14 @@
 	<meta charset="utf-8">
 	
 	<title>Friday Night Funkin'</title>
-	
 	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	
 	
-	<link rel="shortcut icon" type="image/png" href="./favicon.png">
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
 	
 	
-	<script type="text/javascript" src="./Funkin.js"></script>
+	<script type="text/javascript" src="Funkin.js?v7"></script>
 	
 	<script>
 		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
@@ -61,12 +60,20 @@
 			font-weight: normal;
 			font-style: normal;
 		}
-
+	body{background-color:#000;}
+		#playmore {text-align: center;}
+		#playmore a{color: #fff;}
 	</style>
 	
 </head>
 <body>
 	
+		<script type="text/javascript">
+		let url = window.location!=window.parent.location?document.referrer:document.location;
+		if (url.indexOf("https://fnfunblocked.com") == -1) {
+			document.write('<div id="playmore"><a href="https://fnfunblocked.com" target="_blank">Play more Friday Night Funkin Mods</a></div>');
+		}
+	</script>
 	<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
 	
 	<div id="openfl-content"></div>
