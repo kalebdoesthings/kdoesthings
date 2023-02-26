@@ -1,43 +1,173 @@
-body {
-  background: #000000;
-  color: #00ff00;
-  font-family: monospace;
+img{
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: crisp-edges;				/* Caused issues when removed */
+    image-rendering: pixelated; 				/* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
-.accessGranted {
-  position: fixed;
-  top: 200px;
-  background: #333;
-  padding: 20px;
-  border: 1px solid #999;
-  width: 300px;
-  left: 50%;
-  margin-left: -150px;
-  text-align: center;
+
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
 }
-.accessDenied {
-  position: fixed;
-  top: 200px;
-  color: #f00;
-  background: #511;
-  padding: 20px;
-  border: 1px solid #f00;
-  width: 300px;
-  left: 50%;
-  margin-left: -150px;
-  text-align: center;
+
+*{
+    transition: background-color 0.5s ease,
+                color 0.5s ease,
+                text-shadow 0.5s ease;
 }
-::-webkit-scrollbar {
-  width: 10px;
+
+#text{
+    width: 100%;
+    height: 90%;
+    font-family: monospace;
+    font-size: 16px;
+    z-index: 0;
+    text-shadow: #00FF00 0 0 10px;
 }
-/* Track */
-::-webkit-scrollbar-track {
-  background: #000000;
+
+#d:not(.link){
+    width: 80%;
+    height: 90%;
+    color: #00FF00;
+    padding-left: 2%;
+    padding-top: 10px;
+    display:inline-block;
 }
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #000000;
+
+#infoText{
+    width: 80%;
+    font-family: monospace;
+    font-size: 20px;
+    text-shadow: #00FF00 0 0 10px;
 }
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #000000;
+
+.text{
+    width: 80%;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+#info{
+    top: 0;
+    position: fixed;
+    width: 260px;
+    height: 100vh;
+    color: #00FF00;
+    padding-left: 1%;
+    margin-bottom: 100px;
+    display:inline-block;
+    right: 0px;
+    border-left: 1px solid gray;
+    z-index: 10;
+    background-color: black;
+}
+
+ /* unvisited link */
+a:link {
+    color: #00EE00;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #11FF11;
+}
+
+/* selected link */
+a:active {
+    color: #22FF22;
+}
+
+.link{
+    text-decoration: none;
+}
+
+::selection { /* WebKit/Blink Browsers */
+  background: white;
+  color: black;
+}
+::-moz-selection { /* Gecko Browsers */
+  background: white;
+  color: black;
+}
+
+.theme{
+    float: left;
+    border: 1px solid red;
+    margin-top: 1px;
+    width: 150px;
+    text-align: center;
+}
+
+#loadBox{
+    border: inset 1px #ccc;
+    background: #fff;
+    width: 100px;
+    height: 22px;
+    margin-bottom: 4px;
+}
+
+#saveBox{
+    border: inset 1px #ccc;
+    background: #fff;
+    width: 194px;
+    height: 16px;
+    margin-bottom: 4px;
+    display: inline-block;
+    color: black;
+    font-size: 14;
+    padding-top: 3px;
+    transition: background-color 0.5s ease,
+                color 0.5s ease,
+                border-color 0.5s ease;
+    font: monospaced;
+    padding-left: 4px;
+}
+
+#saveBox::selection { /* WebKit/Blink Browsers */
+  background: blue;
+  color: white;
+}
+
+#saveBox::-moz-selection { /* Gecko Browsers */
+  background: blue;
+  color: white;
+  
+}
+
+#loadBox{
+    transition: background-color 0.5s ease,
+                color 0.5s ease,
+                border-color 0.5s ease;
+    padding-left: 4px;
+    width: 200px;
+}
+
+#loadBox::selection { /* WebKit/Blink Browsers */
+  background: blue;
+  color: white;
+}
+
+#loadBox::-moz-selection { /* Gecko Browsers */
+  background: blue;
+  color: white;
+  
+}
+
+#bg{
+    position: fixed;
+}
+
+.bit{
+    position: fixed;
+    opacity: 0;
+    transition: opacity 0.2s ease,
 }

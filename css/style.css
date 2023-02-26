@@ -16,15 +16,36 @@
   100%{background-position:0% 50%}
 }
 
-img:hover{
 
-border:5px solid red;
-
-
-
+.container {
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: #131412;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  margin: 10px;
+}
+  
+.container:hover {
+  transform: scale(1.1);
 }
 
 
+img {
+  max-width: 100%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: whitesmoke;
+  font-size: 25px;
+}
 
 
 
