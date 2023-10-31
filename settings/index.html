@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" href="../css/style.css">  
+  <link rel="stylesheet" href="../css/glow.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../img/favicons/main.ico">
+  <title>Settings</title>
+  <script>
+  
+  </script>
+  
+  
+  <script>
+  if (localStorage.getItem("newTitle") == null) {
+  document.title = ("Settings")
+}
+ else { var titleName = localStorage.getItem("newTitle");
+          document.title = (titleName);}
+  
+
+    
+ 
+ </script>
+  <script async src="../js/readpreset.js"></script>
+
+<script src="../js/nav.js"></script>
+<script src="../js/settings.js"></script>
+</head>
+<body>
+  <div id="navbar">
+    <a href="../index.html" class="bluelink" >Games</a>
+    <a href="../settings/index.html" >Settings</a>
+    <a href="../report/index.html" >Submit A Game Or A Bug</a>
+    <a href="../changelog/index.html">Changelog</a>
+    <a href="https://doorsock54.shop">Eaglercraft</a>
+  </div>
+
+
+
+<div class="left">
+  
+
+  <button class="glow-on-hover" align="left" onclick="titleChange()">Click Me To Change Title</button>
+</div>
+
+<button class="glow-on-hover" align="left" onclick="reset()">Reset Settings</button>
+<div class="left">
+  <button class="glow-on-hover" align="left" onclick="preset()">Choose A Preset</button> 
+</div>
+
+
+  <div class="content">
+
+
+
+
+
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+/* Style the navbar */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@400;500&display=swap');
+@-webkit-keyframes rainbowanim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes rainbowanim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes rainbowanim { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+
+@keyframes rainbow{
+  100%,0%{
+    color: rgb(255,0,0);
+  }
+  8%{
+    color: rgb(255,127,0);
+  }
+  16%{
+    color: rgb(255,255,0);
+  }
+  25%{
+    color: rgb(127,255,0);
+  }
+  33%{
+    color: rgb(0,255,0);
+  }
+  41%{
+    color: rgb(0,255,127);
+  }
+  50%{
+    color: rgb(0,255,255);
+  }
+  58%{
+    color: rgb(0,127,255);
+  }
+  66%{
+    color: rgb(0,0,255);
+  }
+  75%{
+    color: rgb(127,0,255);
+  }
+  83%{
+    color: rgb(255,0,255);
+  }
+  91%{
+    color: rgb(255,0,127);
+  }
+}
+.toptier {
+  animation: rainbow 5s linear;
+  animation-iteration-count: infinite;
+
+}
+
+
+.container {
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: #131412;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  margin: 10px;
+}
+  
+.container:hover {
+  transform: scale(1.1);
+}
+
+
+img {
+  max-width: 100%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.rainbow {
+
+
+  font-family: 'Roboto Mono', monospace;
+
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(45deg,#FF0000,#FF7F00,#FFFF00,#00FF00,#0000FF,#4B0082,#8B00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+
+  -webkit-animation: rainbowanim 7s ease infinite;
+  -moz-animation: rainbowanim 7s ease infinite;
+  animation: rainbowanim 7s ease infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+a {
+text-decoration: none;
+color: crimson;
+font-size: 30px;
+
+}
+
+
+body{
+background: black;
+text-decoration: none;
+}
+
+.content {
+color: whitesmoke;
+text-decoration: none;
+
+
+
+
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  text-decoration: none;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  
+}
+
+  
+
+
+a.bluelink:hover {
+  color: blue;
+  transition-delay: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+/* Page content */
+.content {
+  padding: 16px;
+  font-family: 'Roboto Mono', monospace;
+
+
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.counter {color:green;}
+
+
+.inline {
+  display: inline-block;
+}

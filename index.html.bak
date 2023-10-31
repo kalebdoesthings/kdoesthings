@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+  <link rel="icon" href="img/favicons/main.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="class="lazyload" width=device-class="lazyload" width, initial-scale=1.0">
+  <script src="js/nav.js"></script>
+  <script src="js/music.js"></script>
+  <title>kdoesthings</title>
+  <script>
+    if (localStorage.getItem("newTitle") == null) {
+    document.title = ("Home")
+  }
+   else { var titleName = localStorage.getItem("newTitle");
+            document.title = (titleName);}
+    </script> 
+</head>
+<script async src="../js/readpreset.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+<!-- Hey If Your Wondering why that password thiing is not secure its because everybody at my school is as dumb as rocks and as dull as rusted iron so yeah i know its not secure...-->
+
+<!-- <script id="password">
+if (localStorage.getItem("secured") == "secured"){
+alert("found token")
+const num = math.random(1,10000)
+alert(num + "is the password")
+}
+const ar = prompt("if token has been give then your alright")
+if (ar == "helloworld") 
+{
+  alert("ok")
+  const secured = "secured"
+  localStorage.setItem("secured", secured)
+}
+if (ar != "helloworld") {
+window.location.replace("https://hmo.com")
+
+}
+
+</script>
+-->
+<body id="remove">
+  
+  
+  <div id="navbar">
+    <strong>
+    <a href="../index.html">Games</a>
+    <a href="../settings/index.html" >Settings</a>
+    <a href="../report/index.html" >Submit A Game Or A Bug</a>
+    <a href="../changelog/index.html">Changelog</a>
+    <a href="https://doorsock54.shop">Eaglercraft</a>
+    
+    </strong>
+  </div>
+
+
+<script>
+
+var x = Math.floor(Math.random() * 10);
+
+console.log("it is a fact");
+
+
+
+
+</script>
+<script src="js/lock.js">
+lock()
+  </script>
+
+<audio id="myAudio">
+  <source src="music/ocarinaoftime.mp3" type="audio/mpeg">
+</audio>
+
+
+<button onclick="playAudio()" type="button">Play Audio</button>
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+
+
+
+
+<script>
+document.addEventListener("keyup", function(event) {
+    if (event.keyCode === 192) {
+      var link = document.querySelector("link[rel~='icon']");
+if (!link) {
+    link = document.createElement('link');
+    link.rel = 'icon';
+    document.getElementsByTagName('head')[0].appendChild(link);
+}
+link.href = 'https://google.com/favicon.ico';
+document.title = "Google";
+      window.open('https://classroom.google.com')
+    }
+});
+</script>
+
+<script src="js/randomline.js"></script>
+
+
+
+
+<div class="content">
+<center>
+  <a></a>
+  <!-- <strong><a href="https://discord.gg/vTbrk7zNCf" style="color: purple; font-size: 50px;">Discord</a></strong> !-->
+  <h2><span style="font-size: 50px; color: crimson;">91</span> Games </h2>
+ <div id="inline"> <h2 id="view-counter" class ="counter"></h2></div>
+ 
+ <a href="changelog/index.html" style="color: blue; font-size: 50px;">New Update Check The Changelog</a>
+ 
+ 
+ 
+ <h2>Press <span style="font-size: 50px; ;">~</span> For a safe escape if your teacher walks by. Credits to <span style="color: magenta;"><a style="color: magenta; font-size: 24px;" href="https://totallyscience.co/" target="_blank">Totally Science</a></span> for the idea
+
+  <h2>
+  Credits:
+    
+    Kaleb
+   <br> 
+    
+    Donators:
+<br>  
+  Britton Hughes
+<br>
+  Jack Harvel
+<br>
+Eli Kasten
+<br>
+Noam Lurie
+
+
+</h2>
+  
+  <h2 id="dadjoke"></h2>
+</center>
+<script async src="js/counter.js"></script>
+
+
+<span style="color: green; display: inline-block;"><h2 style="display: inline-block; color: green;">There Has Beenㅤ</h2><h2 style="display: inline-block; color: green;" id="count" ></h2><h2 style="display: inline-block; color: green;">ㅤVisitors</h2> </span>
+
+<center>
+  
+  
+  <div class="container">
+   <a href="games/1v1.html"> <img src="img/1v1.jpeg" alt="image failed to load"></a>
+    <strong><p>1v1 Updated</p></strong>
+  </div>
+  
+  <div class="container">
+    <a href="games/2dworld.html"> <img src="img/2dworld.jpeg" alt="Your Image"></a>
+     <strong><p>2d World</p></strong>
+   </div>
+   
+  <div class="container">
+    <a href="games/2048.html"> <img src="img/2048.jpeg.png" alt="Your Image"></a>
+     <strong><p>2048</p></strong>
+   </div>
+  
+   <div class="container">
+    <a href="games/9007199254740992.html"> <img src="img/bignumba.jpeg" alt="Your Image"></a>
+     <strong><p>9007199254740992</p></strong>
+   </div>
+  
+   <div class="container">
+    <a href="games/achilles.html"> <img src="img/achilles.jpeg" alt="Your Image"></a>
+     <strong><p>Achilles</p></strong>
+   </div>
+   <div class="container">
+   <a href="games/ageofwar.html"> <img src="img/ageofwar.jpeg" alt="Your Image"></a>
+    <strong><p>Age Of War</p></strong>
+  </div>
+  
+  <div class="container">
+    <a href="games/alien.html"> <img src="img/alien.jpeg" alt="Your Image"></a>
+     <strong><p>Alien Hominid</p></strong>
+   </div>
+  
+   <div class="container">
+  <a href="games/bacon.html"> <img src="img/bacon.jpeg" alt="Your Image"></a>
+   <strong><p>Bacon May Die</p></strong>
+ </div>
+ 
+
+ <div class="container">
+  <a href="games/basketball.html"> <img src="img/basketball.jpeg" alt="Your Image"></a>
+   <strong><p>Basketball</p></strong>
+ </div>
+ 
+ 
+
+ <div class="container">
+  <a href="games/bitlife.html"> <img src="img/bitlife.jpeg" alt="Your Image"></a>
+   <strong><p>Bitlife</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/bloxorz.html"> <img src="img/bloxorz.jpeg" alt="Your Image"></a>
+   <strong><p>Bloxorz</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/cookie.html"> <img src="img/cookie.jpg" alt="Your Image"></a>
+   <strong><p>Cookie Clicker</p></strong>
+ </div>
+ <div class="container">
+  <a href="games/crossy.html"> <img src="img/crossy.jpeg" alt="Your Image"></a>
+   <strong><p>Crossy Road</p></strong>
+ </div>
+ 
+ <div class="container">
+  <a href="games/cubefield.html"> <img src="img/cubefield.jpg" alt="Your Image"></a>
+   <strong><p>Cubefield</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/cuttherope.html"> <img src="img/cuttherope.jpeg" alt="Your Image"></a>
+   <strong><p>Cut The Rope</p></strong>
+ </div>
+
+
+ <div class="container">
+  <a href="games/deepestsword.html"> <img src="img/deepestsword.jpeg" alt="Your Image"></a>
+   <strong><p>Deep Sword</p></strong>
+ </div>
+
+
+
+ <div class="container">
+  <a href="games/dinogame.html"> <img src="img/dinogame.jpeg" alt="Your Image"></a>
+   <strong><p>Chrome Dino Game</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/doodlejump.html"> <img src="img/doodlejump.jpeg" alt="Your Image"></a>
+   <strong><p>Doodle Jump</p></strong>
+ </div>
+ 
+ <div class="container">
+  <a href="games/driftboss.html"> <img src="img/driftboss.jpeg" alt="Your Image"></a>
+   <strong><p>Drift Boss</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/ducklife1.html"> <img src="img/ducklife1.jpeg" alt="Your Image"></a>
+   <strong><p>Duck Life 1</p></strong>
+ </div>
+
+
+ <div class="container">
+  <a href="games/ducklife2.html"> <img src="img/ducklife2.jpeg" alt="Your Image"></a>
+   <strong><p>Duck Life 2</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/ducklife3.html"> <img src="img/ducklife3.jpeg" alt="Your Image"></a>
+   <strong><p>Duck Life 3</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/ducklife4.html"> <img src="img/ducklife4.jpeg" alt="Your Image"></a>
+   <strong><p>Duck Life 4</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/eel.html"> <img src="img/eel.jpeg" alt="Your Image"></a>
+   <strong><p>Eel Slap</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/flappy2048.html"> <img src="img/flappy2048.jpeg" alt="Your Image"></a>
+   <strong><p>Flappy 2048</p></strong>
+ </div>
+
+
+ <div class="container">
+  <a href="games/fnaf1.html"> <img src="img/fnaf1.jpeg" alt="Your Image"></a>
+   <strong><p>Fnaf 1</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/fnaf2.html"> <img src="img/fnaf2.jpeg" alt="Your Image"></a>
+   <strong><p>Fnaf 2</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/fnaf3.html"> <img src="img/fnaf3.jpeg" alt="Your Image"></a>
+   <strong><p>Fnaf 3</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/fnaf4.html"> <img src="img/fnaf4.jpeg" alt="Your Image"></a>
+   <strong><p>Fnaf 4</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/fnafsisterlocation.html"> <img src="img/fnafsisterlocation.jpeg" alt="Your Image"></a>
+   <strong><p>Sister Location</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/fnf.html"> <img src="img/fnf.jpeg" alt="Your Image"></a>
+   <strong><p>Friday Funkin</p></strong>
+ </div>
+
+
+ <div class="container">
+  <a href="games/football.html"> <img src="img/footballlegends.jpeg" alt="Your Image"></a>
+   <strong><p>Football Legend</p></strong>
+ </div>
+
+
+
+ <div class="container">
+  <a href="games/fruit.html"> <img src="img/fruit.jpeg" alt="Your Image"></a>
+   <strong><p>Fruit Ninja</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/getaway.html"> <img src="img/getawayshootout.jpeg" alt="Your Image"></a>
+   <strong><p>Getaway Shootout</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/gopher.html"> <img src="img/gopherkart.jpeg" alt="Your Image"></a>
+   <strong><p>Gopher Kart</p></strong>
+ </div>
+ <div class="container">
+  <a href="games/gorescript.html"> <img src="img/gorescript.jpeg" alt="Your Image"></a>
+   <strong><p>Gorescript</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/gsnake.html"> <img src="img/gsnake.jpeg" alt="Your Image"></a>
+   <strong><p>Google Snake</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/gunblood.html"> <img src="img/gunblood.jpeg" alt="Your Image"></a>
+   <strong><p>Gunblood</p></strong>
+ </div>
+
+<div class="container">
+  <a href="games/gunmayhem1.html"> <img src="img/gunmayhem1.jpeg" alt="Your Image"></a>
+   <strong><p>Gun Mayhem 1</p></strong>
+ </div>
+
+ <div class="container">
+  <a href="games/gunmayhem2.html"> <img src="img/gunmayhem2.jpeg" alt="Your Image"></a>
+   <strong><p>Gun Mayhem 2</p></strong>
+ </div>
+ <div class="container">
+  <a href="games/hacker.html"> <img src="img/hackertyper.jpeg" alt="Your Image"></a>
+   <strong><p>Hacker Typer</p></strong>
+ </div>
+ <div class="container">
+  <a href="games/henrystickman-breakingthebreak.html"> <img src="img/breakbank.jpeg" alt="Your Image"></a>
+   <strong><p>Breaking Bank</p></strong>
+ </div>
+ <div class="container">
+  <a href="games/henrystickman-crossingthepit.html"> <img src="img/crossingthepit.jpeg" alt="Your Image"></a>
+   <strong><p>Crossing Pit</p></strong>
+ </div>
+ 
+ <div class="container">
+  <a href="games/henrystickman-escapingtheprison.html"> <img src="img/escapeprison.jpeg" alt="Your Image"></a>
+   <strong><p>Escape Prison</p></strong>
+ </div> 
+ <div class="container">
+  <a href="games/henrystickman-infiltratingtheairship.html"> <img src="img/infiltartingairship.jpeg" alt="Your Image"></a>
+   <strong><p>Steal Airship</p></strong>
+ </div>
+ <div class="container">
+  <a href="games/henrystickman-stealingthediamond.html"> <img src="img/stealthediamond.jpeg" alt="Your Image"></a>
+   <strong><p>Steal Diamond</p></strong>
+ </div>
+ 
+ <div class="container">
+  <a href="games/idlebreakout.html"> <img src="img/idlebreakout.jpeg" alt="Your Image"></a>
+   <strong><p>Idle Breakout</p></strong>
+ </div>
+ <div class="container">
+  <a href="games/impossiblequiz.html"> <img src="img/impossiblequiz.jpeg" alt="Your Image"></a>
+   <strong><p>Impossible Quiz</p></strong>
+ </div>
+ <div class="container">
+  <a href="games/learntofly.html"> <img src="img/learntofly.jpeg" alt="Your Image"></a>
+   <strong><p>Learn To Fly</p></strong>
+ </div>
+ 
+   <div class="container">
+    <a href="games/learntofly2.html"> <img src="img/learntofly2.jpeg" alt="Your Image"></a>
+     <strong><p>Learn To Fly 2</p></strong>
+   </div>
+ 
+ 
+  
+ <div class="container">
+  <a href="games/legostarwars.html"> <img src="img/legostarwars.jpeg" alt="Your Image"></a>
+   <strong><p>Lego Star Wars</p></strong>
+ </div>
+ 
+ <div class="container">
+  <a href="games/moto.html"><img src="img/moto.jpeg" alt="Your Image"></a>
+   <strong><p>MotoX3M</p></strong>
+ </div>
+ 
+ 
+ 
+ <div class="container">
+  <a href="games/papasscooperia.html"> <img src="img/papasscooperia.jpeg" alt="Your Image"></a>
+   <strong><p>Papa Scooperia</p></strong>
+ </div>
+ 
+ 
+ 
+ <div class="container">
+  <a href="games/papashotdoggeria.html"> <img src="img/hotdoggeria.jpeg" alt="Your Image"></a>
+   <strong><p>Hotdoggeria</p></strong>
+ </div>
+ 
+ <div class="container">
+  <a href="games/pogoswing.html"> <img src="img/pogoswing.jpeg" alt="Your Image"></a>
+   <strong><p>Pogo Swing</p></strong>
+ </div>
+ <div class="container">
+  <a href="games/pokemonemerald.html"> <img src="img/pokemonemerald.jpeg" alt="Your Image"></a>
+   <strong><p>Pokemon Emerald</p></strong>
+ </div>
+ <div class="container">
+  <a href="games/pokemonleafgreen.html"> <img src="img/pokemonleafgreen.jpeg" alt="Your Image"></a>
+   <strong><p>Pokemon Leaf</p></strong>
+   </div>
+   <div class="container">
+    <a href="games/pokemonred.html"> <img src="img/pokemonfirered.jpeg" alt="Your Image"></a>
+     <strong><p>Pokemon Red</p></strong>
+     </div>
+     <div class="container">
+      <a href="games/pokemonruby.html"> <img src="img/pokemonruby.jpeg" alt="Your Image"></a>
+       <strong><p>Pokemon Ruby</p></strong>
+       </div>
+       <div class="container">
+        <a href="games/pong.html"> <img src="img/3dpong.jpeg" alt="Your Image"></a>
+         <strong><p>3d Pong</p></strong>
+         </div>
+         <div class="container">
+          <a href="games/pongclassic.html"> <img src="img/classicpong.jpeg" alt="Your Image"></a>
+           <strong><p>Classic Pong</p></strong>
+           </div>
+           <div class="container">
+            <a href="games/radiusraid.html"> <img src="img/radiusraid.jpeg" alt="Your Image"></a>
+             <strong><p>Radius Raid</p></strong>
+             </div>
+             <div class="container">
+              <a href="games/retrobowl.html"> <img src="img/retrobowl.jpeg" alt="Your Image"></a>
+               <strong><p>Retrobowl</p></strong>
+               </div>
+               <div class="container">
+                <a href="games/rgbidle.html"> <img src="img/rgbidle.jpeg" alt="Your Image"></a>
+                 <strong><p>Rgb Idle</p></strong>
+                 </div>
+                 <div class="container">
+                  <a href="games/riddleschool1.html"> <img src="img/riddleschool1.jpeg" alt="Your Image"></a>
+                   <strong><p>Riddle School 1</p></strong>
+                   </div>
+                   <div class="container">
+                    <a href="games/riddleschool2.html"> <img src="img/riddleschool2.jpeg" alt="Your Image"></a>
+                     <strong><p>Riddle School 2</p></strong>
+                     </div>
+                     <div class="container">
+                      <a href="games/riddleschool3.html"> <img src="img/riddleschool3.jpeg" alt="Your Image"></a>
+                       <strong><p>Riddle School 3</p></strong>
+                       </div>
+                       <div class="container">
+                        <a href="games/riddleschool4.html"> <img src="img/riddleschool4.jpeg" alt="Your Image"></a>
+                         <strong><p>Riddle School 4</p></strong>
+                         </div>
+                         <div class="container">
+                          <a href="games/riddleschool5.html"> <img src="img/riddleschool5.jpeg" alt="Your Image"></a>
+                           <strong><p>Riddle School 5</p></strong>
+                           </div>
+                           <div class="container">
+                            <a href="games/riddleschooltransfer.html"> <img src="img/riddletransfer1.jpeg" alt="Your Image"></a>
+                             <strong><p>Riddle Transfer</p></strong>
+                             </div>
+                             <div class="container">
+                              <a href="games/riddleschooltransfer2.html"> <img src="img/riddletransfer2.jpeg" alt="Your Image"></a>
+                               <strong><p>RiddleTransfer 2</p></strong>
+                               </div>
+                               <div class="container">
+                                <a href="games/rooftop.html"> <img src="img/rooftop.jpeg" alt="Your Image"></a>
+                                 <strong><p>Rooftop Snipers</p></strong>
+                               </div>
+
+
+
+                                 <div class="container">
+                                  <a href="games/run3.html"> <img src="img/run3.jpeg" alt="Your Image"></a>
+                                   <strong><p>Run 3</p></strong>
+                                 </div>
+                                
+                                
+                                
+                         
+                                 <div class="container">
+                                  <a href="games/slope.html"> <img src="img/slope.jpeg" alt="Your Image"></a>
+                                   <strong><p>Slope</p></strong>
+                                   </div>
+                                   <div class="container">
+                                    <a href="games/sm64.html"> <img src="img/sm64.jpeg" alt="Your Image"></a>
+                                     <strong><p>Sm64</p></strong>
+                                     </div>
+                                     <div class="container">
+                                      <a href="games/smashkarts.html"> <img src="img/smashkarts.jpeg" alt="Your Image"></a>
+                                       <strong><p>Smash Karts</p></strong>
+                                       </div>
+                                       <div class="container">
+                                        <a href="games/streetfighter.html"> <img src="img/streetfighter.jpeg" alt="Your Image"></a>
+                                         <strong><p>Street Fighter</p></strong>
+                                         </div>
+                                         <div class="container">
+                                          <a href="games/subway.html"> <img src="img/subwaysurfers.jpeg" alt="Your Image"></a>
+                                           <strong><p>Subway Surfers</p></strong>
+                                           </div>
+                                           <div class="container">
+                                            <a href="games/superfowlst.html"> <img src="img/superfowlst.jpeg" alt="Your Image"></a>
+                                             <strong><p>Super Fowlst</p></strong>
+                                             </div>
+                                             <div class="container">
+                                              <a href="games/supermario.html"> <img src="img/supermariobros.jpeg" alt="Your Image"></a>
+                                               <strong><p>Super Mario</p></strong>
+                                               </div>
+                                               
+                                               <div class="container">
+                                                <a href="games/tether.html"> <img src="img/tether.jpeg" alt="Your Image"></a>
+                                                 <strong><p>Tether</p></strong>
+                                               </div>
+                                               
+                                               
+                                               
+                                               
+                                               <div class="container">
+                                                <a href="games/tetris.html"> <img src="img/tetris.jpeg" alt="Your Image"></a>
+                                                 <strong><p>Tetris</p></strong>
+                                                 </div>
+                                                 <div class="container">
+                                                  <a href="games/themaze.html"> <img src="img/themaze.jpeg" alt="Your Image"></a>
+                                                   <strong><p>The Maze</p></strong>
+                                                   </div>
+
+
+
+
+
+                                                 <div class="container">
+                                                  <a href="games/thereisnogame.html"> <img src="img/thereisnogame.jpeg" alt="Your Image"></a>
+                                                   <strong><p>There No Game</p></strong>
+                                                   </div>
+                                                   <div class="container">
+                                                    <a href="games/tosstheturtle.html"> <img src="img/tossthesturtle.jpeg" alt="Your Image"></a>
+                                                     <strong><p>Toss The Turtle</p></strong>
+                                                     </div>
+                                                     <div class="container">
+                                                      <a href="games/tubejumpers.html"> <img src="img/tubejumpers.jpeg" alt="Your Image"></a>
+                                                       <strong><p>Tube Jumpers</p></strong>
+                                                       </div>
+                                                       <div class="container">
+                                                        <a href="games/tunnelrush.html"> <img src="img/tunnelrush.jpeg" alt="Your Image"></a>
+                                                         <strong><p>Tunnel Rush</p></strong>
+                                                         </div>
+                                                         <div class="container">
+                                                          <a href="games/vex3.html"> <img src="img/vex3.jpeg" alt="Your Image"></a>
+                                                           <strong><p>Vex 3</p></strong>
+                                                           </div>
+                                                           <div class="container">
+                                                            <a href="games/vex4.html"> <img src="img/vex4.jpeg" alt="Your Image"></a>
+                                                             <strong><p>Vex 4</p></strong>
+                                                             </div>
+                                                             <div class="container">
+                                                              <a href="games/vex5.html"> <img src="img/vex5.jpeg" alt="Your Image"></a>
+                                                               <strong><p>Vex 5</p></strong>
+                                                               </div>
+                                                               <div class="container">
+                                                                <a href="games/zombocalypse.html"> <img src="img/zombocalypse..jpeg" alt="Your Image"></a>
+                                                                 <strong><p>Zombopocalypse</p></strong>
+                                                                 </div>
+</center>
+<h2>
+  Donators:
+
+  Jack Harvell
+</h2>
+
+
+
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script async src="../js/readpreset.js"></script>
+  <script src="../../js/fullscreen.js"></script>
+  <script>
+    if (localStorage.getItem("newTitle") == null) {
+    document.title = ("Astray")
+  }
+   else { var titleName = localStorage.getItem("newTitle");
+            document.title = (titleName);}
+    </script>
+</head>
+<body>
+  <iframe src="../source/astray/index.html" id="full" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    If you are seeing this then your browser doesn't support iframes.
+</iframe>
+<script>
+  document.addEventListener("keyup", function(event) {
+      if (event.keyCode === 192) {
+        var link = document.querySelector("link[rel~='icon']");
+  if (!link) {
+      link = document.createElement('link');
+      link.rel = 'icon';
+      document.getElementsByTagName('head')[0].appendChild(link);
+  }
+  link.href = 'https://google.com/favicon.ico';
+  document.title = "Google";
+        window.open('https://classroom.google.com')
+      }
+  });
+  </script>
+  
+</body>
+</html>
