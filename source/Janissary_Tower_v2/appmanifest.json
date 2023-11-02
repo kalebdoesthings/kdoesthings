@@ -1,0 +1,10 @@
+{
+	"name": "Janissary Tower",
+	"short_name": "Janissary Tower",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": []
+}
