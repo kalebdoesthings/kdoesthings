@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-254627-27"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-254627-27');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8073186300309643" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Guess the PIN</title>
+<meta name="description" content="How long does it take the internet to guess a randomly-selected, four-digit PIN? Try for yourself!">
+<meta property="og:title" content="Guess the PIN">
+<meta property="og:description" content="How long does it take the internet to guess a randomly-selected, four-digit PIN? Try for yourself!">
+<meta name="twitter:card" content="How long does it take the internet to guess a randomly-selected, four-digit PIN? Try for yourself!">
+<meta property="og:url" content="https://www.guessthepin.com">
+<link rel="canonical" href="https://www.guessthepin.com">
+<meta property="og:image" content="https://www.guessthepin.com/android-chrome-512x512.png">
+<meta property="og:image:alt" content="Brand colors for the website www.guessthepin.com.">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;1,400&family=Questrial&display=swap" rel="stylesheet">
+<style>
+/* Variables */
+:root {
+	--black: 34, 34, 34;
+	--blue: 66, 107, 145;
+	--red: 188, 61, 30;
+	--tan-dark: 241, 236, 227;
+	--tan-light: 249, 247, 243;
+	--white: 255, 255, 255;
+	--yellow: 230, 198, 58;
+	
+}
+body {
+	background: rgb(var(--tan-light));
+	color: rgb(var(--black));
+	font-family: 'Alegreya', Serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+}
+h1 {
+	font-family: 'Questrial', Sans-Serif;
+	font-size: 48px;
+	font-weight: 400;
+	margin: 0 0 20px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+h1 a {
+	font-weight: 400;
+}
+sup {
+	line-height: 0;
+	position: relative;
+	text-transform: none;
+	vertical-align: baseline;
+}
+sup.article {
+	font-family: 'Alegreya', Serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 400;
+	top: -7px;
+}
+sup.trademark {
+	font-size: 20px;
+	top: -19px;
+}
+h2 {
+	font-weight: 600;
+	font-size: 32px;
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+#winner h2 {
+	color: rgb(var(--red));
+	font-family: 'Questrial', Sans-Serif;
+	font-size: 48px;
+	font-weight: 400;
+	margin: 15px 0;
+	padding: 0;
+	text-align: center;
+}
+h3 {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 600;
+	font-variant-numeric: lining-nums;
+	margin: 0;
+	padding: 0;
+}
+h3.blog {
+	font-size: 24px;
+	line-height: 26px;
+}
+#winner h3 {
+	font-size: 24px;
+	text-align: center;
+}
+p {
+	line-height: 24px;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+a {
+	color: rgb(var(--black));
+	font-weight: 600;
+	text-decoration: none;
+}
+a.alt {
+	color: rgb(var(--blue));
+}
+strong {
+	color: rgb(var(--red));
+	font-weight: 600;
+}
+strong.alt {
+	color: rgb(var(--black));
+}
+.pin {
+	font-feature-settings: "tnum";
+}
+#container {
+	margin: 15px auto 20px;
+	position: relative;
+	width: 300px;
+}
+form {
+	margin: 0;
+	padding: 0;
+}
+label {
+	display: block;
+	font-size: 20px;
+	font-weight: 600;
+	margin: -4px 0 8px 0;
+	padding: 0;
+}
+input {
+	border: 2px solid rgb(var(--blue));
+	border-radius: 6px;
+	font-family: 'Questrial', Sans-Serif;
+	font-size: 48px;
+	height: 71px;
+	margin: 0 6px 20px 0;
+	padding: 0 10px;
+	width: 195px;
+}
+input:focus {
+    outline-width: 0;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type=number] {
+	-moz-appearance: textfield;
+}
+input[type=submit] {
+	-webkit-appearance: none;
+	background: rgb(var(--blue));
+	color: rgb(var(--white));
+	cursor: pointer;
+	font-family: 'Alegreya', Serif;
+	font-size: 22px;
+	font-weight: 600;
+	height: 75px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	width: 75px;
+}
+.ad {
+	height: 250px;
+	margin: 0 0 20px 0;
+	text-align: center;
+	width: 300px;
+}
+svg {
+	position: absolute;
+	top: 482px;
+}
+table {
+	border-collapse: collapse;
+	margin: 0 0 20px 0;
+	width: 100%;
+}
+th {
+	border-bottom: 1px solid rgb(var(--black));
+	text-align: left;
+}
+th, td {
+	width: 33%;
+}
+th.tac-l, td.tac-l {
+	border-left: 1px solid rgb(var(--black));
+	width: 9%;
+}
+th.tac-r, td.tac-r {
+	border-right: 1px solid rgb(var(--black));
+	width: 9%;
+}
+th.tac, td.tac {
+	width: 15%;
+	text-align: right;
+}
+th.tar, td.tar {
+	text-align: right;
+}
+.tab {
+	font-feature-settings: "tnum";
+	font-variant-numeric: lining-nums;
+}
+hr {
+	border-top: 1px solid rgb(var(--black));
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding: 0;
+}
+#footer p {
+	line-height: 22px;
+	text-align: center;
+}
+#footer p.first {
+	word-spacing: 5px;
+	margin: 0;
+}
+#footer a.alt {
+	color: rgb(var(--black));
+	font-weight: 400;
+}
+#footer a.alt:hover {
+	color: rgb(var(--blue));
+}
+/* GDPR Styles */
+#GDPR {
+	background-color: rgba(var(--yellow), 0.6);
+	padding: 15px;
+	margin: 0 0 20px 0;
+}
+#GDPR p {
+	line-height: 22px;
+	margin: 0;
+}
+#GDPR input[type=submit] {
+	-webkit-appearance: none;
+	background: rgb(var(--blue));
+	color: rgb(var(--white));
+	font-size: 20px;
+	height: 48px;
+	margin: 0;
+	padding: 0;
+	width: 48px;
+}
+.left {
+	width: 80%;
+}
+.right {
+	text-align: right;
+	width: 20%;
+}
+/* Menu Styles */
+#menu {
+	margin: 0 0 20px 0;
+}
+.spacer-l, .spacer-r  {
+	border-bottom: 1px solid rgb(var(--black));
+	float: left;
+	height: 45px;
+	width: 3.3%;
+}
+.spacer-r {
+	margin-left: -1px;
+}
+.item {
+	background: rgb(var(--tan-dark));
+	border: 1px solid rgb(var(--black));
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	height: 44px;
+	float: left;
+	margin-left: -1px;
+	width: 23%;
+}
+.item h2 {
+	font-family: 'Alegreya', Serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 8px 0;
+	text-transform: none;
+}
+.on {
+	background: rgb(var(--tan-light));
+	border-bottom: none;
+	color: rgb(var(--black));
+}
+/* Misc Styles */
+.float {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.mobile {
+	display: block;
+}
+.desktop {
+	display: none;
+}
+
+@media only screen and (min-width: 360px) {
+	h1 {
+		height: 55px;
+		font-size: 54px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+	sup.article {
+		font-size: 26px;
+		top: -8px;
+	}
+	sup.trademark {
+		font-size: 22px;
+		top: -22px;
+	}
+	input {
+		width: 208px;
+	}
+	input[type=submit] {
+		width: 98px;
+	}
+	#container {
+		width: 336px;
+	}
+	.ad {
+		height: 280px;
+		width: 336px;
+	}
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: inline;
+	}
+}
+@media only screen and (min-width: 516px) {
+	body {
+		font-size: 22px;
+	}
+	h1 {
+		height: 55px;
+		font-size: 72px;
+		margin-bottom: 34px;
+	}
+	sup.article {
+		font-size: 32px;
+	    top: -9px;
+	}
+	sup.trademark {
+		font-size: 26px;
+		top: -31px;
+	}
+	.item h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 22px;
+		line-height: 25px;
+	}
+	h3.blog {
+		font-size: 26px;
+		line-height: 28px;
+	}
+	p {
+		line-height: 26px;
+		margin: 0 0 22px 0;
+	}
+	#menu {
+	    margin: 0 0 22px 0;
+	}
+	#container {
+		width: 480px;
+	}
+	label {
+		font-size: 22px;
+	}
+	input {
+		margin-bottom: 22px;
+		width: 313px;
+	}
+	input[type=submit] {
+		font-size: 24px;
+		width: 136px;
+	}
+	#GDPR input[type=submit] {
+	    font-size: 24px;
+	}
+	table {
+		margin: 0 0 22px 0;
+	}
+	.ad {
+		margin: 0 0 22px 0;
+		min-height: 300px;
+		width: 480px;
+	}
+	#footer p {
+		font-size: 20px;
+	}
+}
+@media only screen and (min-width: 763px) {
+	#GDPR p.left {
+		margin-top: 13px;
+	}
+}
+</style><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+<div id="container">
+	<h1><a href="/">Guess <sup class="article">the</sup> PIN<sup class="trademark">™</sup></a></h1>
+		<nav id="menu">
+		<div class="spacer-l"></div>
+		<div class="item on"><h2>Home</h2></div>
+		<a href="/statistics"><div class="item"><h2>Stats</h2></div></a>
+		<a href="/blog"><div class="item"><h2>Blog</h2></div></a>
+		<a href="/faq"><div class="item"><h2>FAQ</h2></div></a>
+		<div class="spacer-r"></div>
+		<div class="clear"></div>
+	</nav>
+				<form method="post" action="/prg.php" name="">
+	<p>The current PIN has been incorrectly guessed <strong>8,787&nbsp;times</strong> in the last <strong>14&nbsp;hours</strong> and <strong>52&nbsp;minutes</strong>.</p>		<script>
+			
+		// Start on First Input Field, But Only on Desktop Screens
+			window.onload = function() {
+			if (window.innerWidth > 414) {
+				document.getElementById("pin").focus();
+			}
+		};
+		
+		// Only Allow Numbers
+		function numberOnly(e) {
+			var code = (e.which) ? e.which : e.keyCode;
+			if (code > 31 && (code < 48 || code > 57)) {
+				e.preventDefault();
+    		}
+		}
+		</script>
+								<input inputmode="numeric" pattern="[0-9]*" type="text" maxlength="4" id="pin" onkeypress="numberOnly(event)" name="guess" class="float" />
+		<input type="submit" value="Guess" class="float">
+		<div class="clear"></div>
+	</form>
+	<div class="ad">
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8073186300309643"
+	     crossorigin="anonymous"></script>
+	<!-- Guess the Pin -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8073186300309643"
+	     data-ad-slot="8977117641"
+	     data-ad-format="auto"
+	     data-full-width-responsive="false"></ins>
+	<script>
+	     (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>						<div id="footer">
+		<p class="first"><a href="/">Home</a> <a href="/terms">Terms</a>  <a href="/privacy">Privacy</a></p>
+		<p>&copy; 2023 <a href="http://www.boredbutton.com" class="alt">Bored Button</a> LLC</p>
+	</div></div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+"companyName": "4Games indie-development",
+"productName": "Error#54",
+"productVersion": "1.0",
+"dataUrl": "Error54WebGl.data.unityweb",
+"wasmCodeUrl": "Error54WebGl.wasm.code.unityweb",
+"wasmFrameworkUrl": "Error54WebGl.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"unityVersion": "2019.1.0a10"
+}
