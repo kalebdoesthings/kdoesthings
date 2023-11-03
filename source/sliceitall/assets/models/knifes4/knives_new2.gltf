@@ -1,0 +1,1906 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.7",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 124532,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 300,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 696,
+            "byteOffset": 300,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 696,
+            "byteOffset": 996,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 464,
+            "byteOffset": 1692,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 972,
+            "byteOffset": 2156,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2448,
+            "byteOffset": 3128,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2448,
+            "byteOffset": 5576,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1632,
+            "byteOffset": 8024,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3960,
+            "byteOffset": 9656,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7812,
+            "byteOffset": 13616,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7812,
+            "byteOffset": 21428,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 5208,
+            "byteOffset": 29240,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 366,
+            "byteOffset": 34448,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 876,
+            "byteOffset": 34816,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 876,
+            "byteOffset": 35692,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 584,
+            "byteOffset": 36568,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1428,
+            "byteOffset": 37152,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3096,
+            "byteOffset": 38580,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3096,
+            "byteOffset": 41676,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2064,
+            "byteOffset": 44772,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3960,
+            "byteOffset": 46836,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7812,
+            "byteOffset": 50796,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7812,
+            "byteOffset": 58608,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 5208,
+            "byteOffset": 66420,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 4608,
+            "byteOffset": 71628,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8676,
+            "byteOffset": 76236,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8676,
+            "byteOffset": 84912,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 5784,
+            "byteOffset": 93588,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 168,
+            "byteOffset": 99372,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 99540,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 99924,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 256,
+            "byteOffset": 100308,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 990,
+            "byteOffset": 100564,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2352,
+            "byteOffset": 101556,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2352,
+            "byteOffset": 103908,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1568,
+            "byteOffset": 106260,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 972,
+            "byteOffset": 107828,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2364,
+            "byteOffset": 108800,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2364,
+            "byteOffset": 111164,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1576,
+            "byteOffset": 113528,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1428,
+            "byteOffset": 115104,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3000,
+            "byteOffset": 116532,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3000,
+            "byteOffset": 119532,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2000,
+            "byteOffset": 122532,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 150,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 58,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -0.491076409816742,
+                -0.942686140537262,
+                -0.0408229902386665
+            ],
+            "max": [
+                0.0939272940158844,
+                1.08479750156403,
+                0.04061683639884
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 58,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 58,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 486,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 204,
+            "bufferView": 5,
+            "byteOffset": 0,
+            "min": [
+                -0.489384144544601,
+                -1.0674170255661,
+                -0.0510899871587753
+            ],
+            "max": [
+                0.234732046723366,
+                1.08366572856903,
+                0.0510796196758747
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 204,
+            "bufferView": 6,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 204,
+            "bufferView": 7,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 1980,
+            "bufferView": 8,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 651,
+            "bufferView": 9,
+            "byteOffset": 0,
+            "min": [
+                -0.145720034837723,
+                -0.643789649009705,
+                -0.190187752246857
+            ],
+            "max": [
+                0.145720034837723,
+                0.648354768753052,
+                0.193717569112778
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 651,
+            "bufferView": 10,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 651,
+            "bufferView": 11,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 183,
+            "bufferView": 12,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 73,
+            "bufferView": 13,
+            "byteOffset": 0,
+            "min": [
+                -0.0475354939699173,
+                -1.22800779342651,
+                -0.364363670349121
+            ],
+            "max": [
+                0.047535490244627,
+                1.22486853599548,
+                0.378087848424911
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 73,
+            "bufferView": 14,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 73,
+            "bufferView": 15,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 714,
+            "bufferView": 16,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 258,
+            "bufferView": 17,
+            "byteOffset": 0,
+            "min": [
+                -0.0727367550134659,
+                -1.30955028533936,
+                -0.373071432113647
+            ],
+            "max": [
+                0.0727365016937256,
+                1.30520629882813,
+                0.355655997991562
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 258,
+            "bufferView": 18,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 258,
+            "bufferView": 19,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 1980,
+            "bufferView": 20,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 651,
+            "bufferView": 21,
+            "byteOffset": 0,
+            "min": [
+                -0.145720034837723,
+                -0.643874526023865,
+                -0.190603092312813
+            ],
+            "max": [
+                0.145720034837723,
+                0.647424578666687,
+                0.196366116404533
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 651,
+            "bufferView": 22,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 651,
+            "bufferView": 23,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 2304,
+            "bufferView": 24,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 723,
+            "bufferView": 25,
+            "byteOffset": 0,
+            "min": [
+                -0.134958848357201,
+                -0.668642103672028,
+                -0.180509328842163
+            ],
+            "max": [
+                0.134958833456039,
+                0.668642282485962,
+                0.180509328842163
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 723,
+            "bufferView": 26,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 723,
+            "bufferView": 27,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 84,
+            "bufferView": 28,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 32,
+            "bufferView": 29,
+            "byteOffset": 0,
+            "min": [
+                -0.0570132620632648,
+                -1.35443818569183,
+                -0.101451724767685
+            ],
+            "max": [
+                0.0570132657885551,
+                1.35443830490112,
+                0.105518147349358
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 32,
+            "bufferView": 30,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 32,
+            "bufferView": 31,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 495,
+            "bufferView": 32,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 196,
+            "bufferView": 33,
+            "byteOffset": 0,
+            "min": [
+                -0.0880225896835327,
+                -1.36474823951721,
+                -0.705235123634338
+            ],
+            "max": [
+                0.0880225896835327,
+                1.36474847793579,
+                0.705233752727509
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 196,
+            "bufferView": 34,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 196,
+            "bufferView": 35,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 486,
+            "bufferView": 36,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 197,
+            "bufferView": 37,
+            "byteOffset": 0,
+            "min": [
+                -0.478727281093597,
+                -1.06741714477539,
+                -0.0510899052023888
+            ],
+            "max": [
+                0.232079714536667,
+                1.08674669265747,
+                0.0510796755552292
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 197,
+            "bufferView": 38,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 197,
+            "bufferView": 39,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 714,
+            "bufferView": 40,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 250,
+            "bufferView": 41,
+            "byteOffset": 0,
+            "min": [
+                -0.0797436982393265,
+                0.229240104556084,
+                -0.234916180372238
+            ],
+            "max": [
+                0.0797493606805801,
+                2.84834027290344,
+                0.511227309703827
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 250,
+            "bufferView": 42,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 250,
+            "bufferView": 43,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "main_atlas.jpg",
+            "uri": "main_atlas.jpg"
+        },
+        {
+            "name": "knife_shine.png",
+            "uri": "knife_shine.png"
+        },
+        {
+            "name": "knife2_shine.png",
+            "uri": "knife2_shine.png"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "file2",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "file4",
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "name": "file6",
+            "sampler": 0,
+            "source": 2
+        }
+    ],
+    "materials": [
+        {
+            "name": "Main_mat",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Lambert",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.200000002980232,
+                "roughnessFactor": 0.800000011920929
+            }
+        },
+        {
+            "name": "knife_shine_mat",
+            "alphaMode": "BLEND",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Lambert",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.200000002980232,
+                "roughnessFactor": 0.800000011920929
+            }
+        },
+        {
+            "name": "knife2_shine_mat",
+            "alphaMode": "BLEND",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Lambert",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.200000002980232,
+                "roughnessFactor": 0.800000011920929
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Knife_cut_area_white",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0
+                }
+            ]
+        },
+        {
+            "name": "Knife_cut_area",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 5,
+                        "TEXCOORD_0": 7
+                    },
+                    "indices": 4
+                }
+            ]
+        },
+        {
+            "name": "Knife_bottom",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9,
+                        "TEXCOORD_0": 11
+                    },
+                    "indices": 8
+                }
+            ]
+        },
+        {
+            "name": "Knife_cut_area_white",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 14,
+                        "POSITION": 13,
+                        "TEXCOORD_0": 15
+                    },
+                    "indices": 12
+                }
+            ]
+        },
+        {
+            "name": "Knife_cut_area",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 18,
+                        "POSITION": 17,
+                        "TEXCOORD_0": 19
+                    },
+                    "indices": 16
+                }
+            ]
+        },
+        {
+            "name": "Knife_bottom",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 22,
+                        "POSITION": 21,
+                        "TEXCOORD_0": 23
+                    },
+                    "indices": 20
+                }
+            ]
+        },
+        {
+            "name": "Knife_bottom",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 26,
+                        "POSITION": 25,
+                        "TEXCOORD_0": 27
+                    },
+                    "indices": 24
+                }
+            ]
+        },
+        {
+            "name": "Knife_cut_area_white",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 30,
+                        "POSITION": 29,
+                        "TEXCOORD_0": 31
+                    },
+                    "indices": 28
+                }
+            ]
+        },
+        {
+            "name": "Knife_cut_area",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 34,
+                        "POSITION": 33,
+                        "TEXCOORD_0": 35
+                    },
+                    "indices": 32
+                }
+            ]
+        },
+        {
+            "name": "Knife_Shine",
+            "primitives": [
+                {
+                    "material": 1,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 38,
+                        "POSITION": 37,
+                        "TEXCOORD_0": 39
+                    },
+                    "indices": 36
+                }
+            ]
+        },
+        {
+            "name": "Knife_Shine",
+            "primitives": [
+                {
+                    "material": 2,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 42,
+                        "POSITION": 41,
+                        "TEXCOORD_0": 43
+                    },
+                    "indices": 40
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1,
+                16,
+                31
+            ]
+        },
+        {
+            "name": "Knife01",
+            "translation": [
+                0.0,
+                -0.0687659457325935,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                2,
+                3,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ]
+        },
+        {
+            "name": "Knife_cut_area_white",
+            "translation": [
+                0.00861908867955208,
+                1.23166871070862,
+                -0.00518603296950459
+            ],
+            "rotation": [
+                -0.0,
+                0.70710676908493,
+                0.0,
+                0.70710676908493
+            ],
+            "scale": [
+                1.12976276874542,
+                1.23087620735168,
+                1.45872914791107
+            ],
+            "mesh": 0
+        },
+        {
+            "name": "Knife_cut_area",
+            "translation": [
+                0.00855616945773363,
+                1.23166871070862,
+                0.00554208736866713
+            ],
+            "rotation": [
+                -0.0,
+                0.70710676908493,
+                0.0,
+                0.70710676908493
+            ],
+            "scale": [
+                1.10642528533936,
+                1.23087620735168,
+                1.32363891601563
+            ],
+            "children": [
+                4
+            ],
+            "mesh": 1
+        },
+        {
+            "name": "Knife_Shine",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -2.93111904100437e-33,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.05130088329315,
+                1.00911581516266,
+                1.14204430580139
+            ],
+            "mesh": 9
+        },
+        {
+            "name": "Knife_bottom",
+            "translation": [
+                0.0,
+                -0.647009015083313,
+                -0.0107389111071825
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 2
+        },
+        {
+            "name": "Knife_Front_Trail_Locator",
+            "translation": [
+                0.00901614781469107,
+                2.58391141891479,
+                -0.113122746348381
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_Back_Trail_Locator",
+            "translation": [
+                0.00901614781469107,
+                -1.3033002614975,
+                -0.0480703338980675
+            ],
+            "rotation": [
+                0.0285714026540518,
+                0.0,
+                0.0,
+                0.999591767787933
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_Back_Trail_Locator2",
+            "translation": [
+                0.00901614781469107,
+                -1.21286773681641,
+                0.166242405772209
+            ],
+            "rotation": [
+                0.0285714026540518,
+                0.0,
+                0.0,
+                0.999591767787933
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_Front_Trail_Locator2",
+            "translation": [
+                0.00901614781469107,
+                3.0,
+                -0.113122746348381
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail01",
+            "translation": [
+                0.00901614781469107,
+                2.58391141891479,
+                -0.113122746348381
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail02",
+            "translation": [
+                0.00901614781469107,
+                2.1027410030365,
+                -0.21941602230072
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail03",
+            "translation": [
+                0.00901614781469107,
+                1.6215705871582,
+                -0.256925255060196
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail04",
+            "translation": [
+                0.00901614781469107,
+                1.14040017127991,
+                -0.264483064413071
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail05",
+            "translation": [
+                0.00901614781469107,
+                0.659229695796967,
+                -0.25067013502121
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail06",
+            "translation": [
+                0.00901614781469107,
+                0.178059309720993,
+                -0.225636824965477
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife02",
+            "translation": [
+                0.0,
+                -0.0726938620209694,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                17,
+                18,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+            ]
+        },
+        {
+            "name": "Knife_cut_area_white",
+            "translation": [
+                -9.16397984838113e-05,
+                1.36991012096405,
+                0.129447892308235
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 3
+        },
+        {
+            "name": "Knife_cut_area",
+            "translation": [
+                3.17313083542103e-06,
+                1.28691864013672,
+                0.138155564665794
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                19
+            ],
+            "mesh": 4
+        },
+        {
+            "name": "Knife_Shine",
+            "translation": [
+                -3.17313083542103e-06,
+                -1.53879022598267,
+                -0.138155564665794
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 10
+        },
+        {
+            "name": "Knife_bottom",
+            "translation": [
+                0.0,
+                -0.64308112859726,
+                -0.000178625414264388
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 5
+        },
+        {
+            "name": "Knife_Front_Trail_Locator",
+            "translation": [
+                0.00901614781469107,
+                2.59139895439148,
+                -0.232660919427872
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_Back_Trail_Locator",
+            "translation": [
+                0.00901614781469107,
+                -1.3004332780838,
+                0.0342182144522667
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_Front_Trail_Locator2",
+            "translation": [
+                0.00901614781469107,
+                3.0,
+                -0.232660919427872
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_Back_Trail_Locator2",
+            "translation": [
+                0.00901614781469107,
+                -1.19790697097778,
+                0.243015587329865
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail01",
+            "translation": [
+                0.00901614781469107,
+                2.59139895439148,
+                -0.232660919427872
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail02",
+            "translation": [
+                0.00901614781469107,
+                2.11108636856079,
+                -0.231281414628029
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail03",
+            "translation": [
+                0.00901614781469107,
+                1.63077390193939,
+                -0.223976477980614
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail04",
+            "translation": [
+                0.00901614781469107,
+                1.1504613161087,
+                -0.218344688415527
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail05",
+            "translation": [
+                0.00901614781469107,
+                0.670148730278015,
+                -0.204407706856728
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail06",
+            "translation": [
+                0.00901614781469107,
+                0.189836248755455,
+                -0.191836893558502
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife03",
+            "translation": [
+                0.0,
+                -0.00454517640173435,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44
+            ]
+        },
+        {
+            "name": "Knife_bottom",
+            "translation": [
+                0.0,
+                -0.664884567260742,
+                0.00250964635051787
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 6
+        },
+        {
+            "name": "Knife_cut_area_white",
+            "translation": [
+                -0.000244468828896061,
+                1.35776460170746,
+                0.966416537761688
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 7
+        },
+        {
+            "name": "Knife_cut_area",
+            "translation": [
+                4.76837147544984e-09,
+                1.36807441711426,
+                0.359420120716095
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 8
+        },
+        {
+            "name": "Knife_Front_Trail_Locator",
+            "translation": [
+                0.00901614781469107,
+                2.69202661514282,
+                -0.232660919427872
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_Back_Trail_Locator",
+            "translation": [
+                0.00841151736676693,
+                -1.34748423099518,
+                0.0319115333259106
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.932939231395721,
+                1.03561162948608,
+                0.932939231395721
+            ]
+        },
+        {
+            "name": "Knife_Back_Trail_Locator2",
+            "translation": [
+                0.00841151736676693,
+                -1.2413067817688,
+                0.22670678794384
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.932939231395721,
+                1.03561162948608,
+                0.932939231395721
+            ]
+        },
+        {
+            "name": "Knife_Front_Trail_Locator2",
+            "translation": [
+                0.00901614781469107,
+                3.09999990463257,
+                -0.232660919427872
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail01",
+            "translation": [
+                0.00901614781469107,
+                2.69202661514282,
+                -0.232660919427872
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail02",
+            "translation": [
+                0.00901614781469107,
+                2.16530561447144,
+                -0.334492266178131
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail03",
+            "translation": [
+                0.00901614781469107,
+                1.63858461380005,
+                -0.27490159869194
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail04",
+            "translation": [
+                0.00901614781469107,
+                1.11186349391937,
+                -0.229678705334663
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail05",
+            "translation": [
+                0.00901614781469107,
+                0.585142433643341,
+                -0.208278611302376
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Knife_New_Trail06",
+            "translation": [
+                0.00901614781469107,
+                0.0584214068949223,
+                -0.192163020372391
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "GAME_KEY": "", 
+    "SECRET_KEY": "",
+    "bannerAdId": "",
+    "interstitialAdId": "",
+    "rewardedAdId": "", 
+    "autoPreloadBanner": false, 
+    "optimizedStart":true,
+    "gdGameId": "efa941135635400f94bdb0b7430a92f4",
+    "buildVersion":"1.0.0"
+}

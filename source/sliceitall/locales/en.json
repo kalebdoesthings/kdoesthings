@@ -1,0 +1,20 @@
+{
+    "levelName": "Level",
+    "level_completed": "YOU WIN",
+    "tap_to_continue": "CONTINUE",  
+    "revive_button": "REVIVE",
+    "level_failed": "FAILED",
+    "fail_button": "RETRY",
+    "trail_button_text":"GET",
+    "selected_text":"SELECTED",
+    "canUse_text":"CAN USE",
+
+    "feedback_first":"GREAT",
+    "feedback_second":"PERFECT",
+    "feedback_third":"SUPER",
+    "checkPoint_text":"CHECKPOINT",
+    "shareButton_text":"Share",
+    "inviteButton_text":"Invite",
+    "bestScore_text":"Total score:",
+    "currentScore_text":"Current score:"
+}

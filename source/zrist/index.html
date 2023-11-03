@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Zrist</title>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <script type="text/javascript">
+            window._runGame=false;
+            window._adPauseGame=function(){};
+            window._adResumeGame=function(){};
+            window.SDK_OPTIONS = {
+                gameId: "iyq1x3g396ik7vhf71czo9ubmjrimzd4",
+                onEvent: function (a) {
+                    switch (a.name) {
+                        case "SDK_GAME_PAUSE":
+                            window._adPauseGame();
+                            break;
+                        case "SDK_GAME_START":
+                            window._adResumeGame();
+                            break;
+                        case "SDK_READY":
+                            window._runGame=true;
+                            break;
+                    }
+                }
+            };
+            (function (a, b, c) {
+                var d = a.getElementsByTagName(b)[0];
+                a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk.js", d.parentNode.insertBefore(a, d))
+            })(document, "script", "gamemonetize-sdk"); 
+        </script>
+    </head>
+    <body oncontextmenu="return false;" style="background-color: #000000">
+        <iframe id="gameFrame" src="Package/game.html" frameborder="0" onload="this.contentWindow.focus();"></iframe>
+        <script type="text/javascript" src="Package/view.js"></script>
+        <script type="text/javascript" src="FilesGameMonetize/main.js"></script>
+        <script type="text/javascript" id="sdk"></script>
+    </body>
+</html>
