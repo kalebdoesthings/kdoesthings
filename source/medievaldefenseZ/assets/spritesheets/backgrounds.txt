@@ -1,0 +1,16 @@
+background = 0 0 1386 623
+clouds = 0 783 1276 137
+dune_big = 1390 0 550 246
+dune_flat = 1280 783 550 103
+dune_medium = 1387 652 550 107
+dune_regular_to_rock = 795 1346 550 103
+dune_rock_big = 1028 924 550 122
+dune_rock_double = 795 1079 550 148
+dune_rock_flat = 0 1824 550 113
+dune_rock_medium = 795 1231 550 111
+dune_rock_pointy = 1390 250 550 220
+dune_rock_to_regular = 795 1453 550 103
+dune_triangle = 1390 474 550 174
+dune_wave = 0 924 1024 151
+ground = 0 627 1383 152
+sun_rays = 0 1079 791 741

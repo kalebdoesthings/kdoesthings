@@ -1,0 +1,143 @@
+<html>
+<!-- Sorry if my code is bad but I'm a dog, what did you expect! -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/bread.png">
+	<title>Help me get 1 Million Pats!</title>
+<meta property="og:title" content="Mina San, Konnichiwa! , it's me Tofu Chan! and welcome to the internet!" />
+<meta property="og:image" content="http://onemillionpats.com/images/og-tobe.jpg" />
+<meta property="og:url" content="http://onemillionpats.com" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="こんにちは、ミナサン！  私は豆腐ちゃんです！ そしてインターネットへようこそ" />
+	<script src="jquery.js"></script>
+  <link rel="stylesheet" type="text/css" href="demstyles.css">
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143840523-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-143840523-1');
+	</script>
+
+</head>
+<body>
+	
+<span class="sub">Let's Get 100 Million Pats!</span>
+
+<div class='patCount'>
+	I've had <span>238,229,179</span> pats</div>
+<div class="tofu-container">
+	<img src="images/chobe.jpg" />
+</div>
+<div class="stats">
+	<div class='posish'></div>
+	<div class='xpso'></div>
+	<div class='patStat'></div>
+</div>
+<div class="btn-box">
+	<div class="btn-left">
+		<!-- <a class="btn" target="_self" href="https://shop.onemillionpats.com/">Buy a Talking Tofu Chan Plush Toy!</a> -->
+		
+</div>
+
+<script>
+
+
+
+var patCount = 238229179;
+
+var digits = function(countFormat){ 
+	var parts = countFormat.toString().split(".");
+    parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return parts.join(".");
+}
+
+$("body").bind('touchmove', function(e) {
+	browserWidth = $(window).width();
+	var touch = e.targetTouches[event.targetTouches.length-1];
+	x = touch.pageX * 1.2;
+	$('.xpso').html(x);
+	 xRounding = Math.round(x/9)*480;	
+
+	if(xRounding <= 10000){
+       patStart = true;
+    }
+
+	if(xRounding == 18720 && patStart == true ) {
+		patStart = false;
+		patCount++;
+		newPats++;
+		$('.patStat').html('pat complete');
+		$('.patCount span').html(digits(patCount));
+	}	
+	
+	$(".tofu-container img").css('left', '-'+xRounding);
+});
+
+var x,y;
+var patStart = 0;
+var newPats = 0;
+$(".tofu-container").mousemove(function(event) {
+    var offset = $(this).offset();
+    var patStarted = false;
+    var xRounding = 0;
+    $('.patStat').html(patStarted);
+    x = event.pageX- offset.left;
+    y = event.pageY- offset.top;
+    $('.xpso').html(x);
+
+    xRounding = Math.round(x/9)*480;
+
+    if(xRounding <= 10000){
+       patStart = true;
+    }
+
+	if(xRounding == 18720 && patStart == true ) {
+		patStart = false;
+		patCount++;
+		newPats++;
+		$('.patStat').html('pat complete');
+		$('.patCount span').html(digits(patCount));
+	}	
+	
+	$(".tofu-container img").css('left', '-'+xRounding);
+	$('.posish').html(xRounding);
+});
+
+	$( window ).on("unload", function(e) {
+		if(newPats > 0){
+			$.ajax({
+	        url: "count.php",
+	        type: "post",
+	        token:'26d4b4313a7e5828856bc0791fca39a2',
+	        data: { 'count' : newPats },
+	        async: false
+	    	});
+    	}
+  
+	});
+
+	$("body").bind('touchend', function(e) {
+		if(newPats > 0){
+			$.ajax({
+	        url: "count.php",
+	        type: "post",
+	        data: { 'count' : newPats },
+	        token:'26d4b4313a7e5828856bc0791fca39a2',
+	        async: false,
+	        success: function(data) {
+                newPats = 0;
+             }
+	    	});
+    	}
+	});
+
+
+</script>
+
+</body>
+</html>
