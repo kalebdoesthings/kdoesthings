@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cluster Rush | 3kh0</title>
+<link rel="icon" href="./icon.jpg">
+<style>
+      /* a style sheet needs to be present for cursor hiding and custom cursors to work. */
+    </style>
+</head>
+<body>
+<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="480px" width="640px"></canvas>
+<script type="text/javascript">
+      var Module = {
+        TOTAL_MEMORY: 268435456,
+        errorhandler: null, // arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+        compatibilitycheck: null,
+        backgroundColor: "#222C36",
+        splashStyle: "Dark",
+        dataUrl: "Release/NG.data",
+        codeUrl: "Release/NG.js",
+        asmUrl: "Release/NG.asm.js",
+        memUrl: "Release/NG.mem",
+      };
+      console.log("If the file NG.mem returns a 404 error, that is ok!")
+    </script>
+<script src="Release/UnityLoader.js"></script>
+<script src="/js/main.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7e02889ee834e7b7","version":"2023.4.0","r":1,"b":1,"token":"a3cd4c62fddc4a97ba1818cd7b1d2b47","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

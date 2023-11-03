@@ -1,0 +1,20 @@
+/*reset*/
+html,
+body,
+canvas,
+iframe {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+canvas {
+  position: fixed;
+}
+/*color*/
+body,
+canvas {
+  background: #000000;
+}
+iframe {
+  display: inline-block;
+}

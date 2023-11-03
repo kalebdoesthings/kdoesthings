@@ -1,0 +1,12 @@
+body {background-color: black;
+  margin: 0;
+overflow: hidden;  
+}
+  .game {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  
+  
+  
+  }
