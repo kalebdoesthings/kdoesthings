@@ -1,0 +1,106 @@
+<!doctype html>
+
+<!-- copied from https://raw.githubusercontent.com/mdn/webassembly-examples/master/understanding-text-format/logger2.html (CC0) -->
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>DooM</title>
+
+    <style>
+      #focushint {
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+      }
+      
+      #output {
+        
+        background-color: bisque;
+        width: 0px;
+        height: 0px;
+        font-family: monospace, serif;
+        font-size: 10px;
+        overflow-y: scroll;
+      }
+      #output span.log {
+        color:darkslateblue;
+      }
+      #output span.stdout {
+        color: black;
+      }
+      #output span.stderr {
+        font-weight: bold;
+        color:brown;
+      }
+
+      .container {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+      }
+
+      
+      
+    </style>
+  </head>
+
+  <body id="con">
+    
+   
+    <p id="focushint"></p>
+    <p><button id="enterButton"></button>
+   <button id="leftButton"></button> <button id="upButton"></button> <button id="downButton"></button> <button id="rightButton"></button>
+      <button id="ctrlButton"></button>
+    <h1> Press <strong>H</strong> For Controls</h1><button id="spaceButton"></button>
+      <button id="altButton"></button></p>
+    <div class="container">
+      <canvas id="screen" width="640" height="400" tabindex="0">This is where the DooM screen should render.</canvas>
+      <span></span>
+      <div id="output"></div>
+    </div>
+    
+    <script src="main.js" defer></script>
+
+    <script>
+    var delay = 2000;
+    document.addEventListener('keydown', function(event) {
+  
+    if (event.key === 'H' || event.key === 'h') {
+       alert("Press Enter To Start Game \nPress Ctrl To Shoot\nPress Space To Open Gates/Doors\nUse The Arrow Keys To Move")
+    }
+});
+
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+          var fullscreenElements = document.getElementsByClassName("container");
+
+          // Ensure there is at least one element with class 'container'
+          if (fullscreenElements.length > 0) {
+              var fullscreenElement = fullscreenElements[0];
+
+              document.addEventListener('keydown', function(event) {
+                  if (event.key === 'F' || event.key === 'f') {
+                      if (fullscreenElement.requestFullscreen) {
+                          fullscreenElement.requestFullscreen();
+                      } else if (fullscreenElement.mozRequestFullScreen) { // Firefox
+                          fullscreenElement.mozRequestFullScreen();
+                      } else if (fullscreenElement.webkitRequestFullscreen) { // Chrome, Safari and Opera
+                          fullscreenElement.webkitRequestFullscreen();
+                      } else if (fullscreenElement.msRequestFullscreen) { // IE/Edge
+                          fullscreenElement.msRequestFullscreen();
+                      }
+                  } 
+              }); // Closing the 'keydown' event listener
+          }
+      }, 1000); // 1-second delay
+  }); // Closing the 'DOMContentLoaded' event listener
+</script>
+
+
+  </body>
+
+</html>
