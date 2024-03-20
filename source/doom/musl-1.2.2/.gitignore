@@ -1,8 +1,0 @@
-*.o
-*.lo
-*.a
-*.so
-*.so.1
-lib/musl-gcc.specs
-/obj/
-/built_inc/
